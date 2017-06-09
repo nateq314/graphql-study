@@ -4,17 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.2",
     "express": "^4.15.3",
     "express-graphql": "^0.6.6",
     "graphql": "^0.10.1",
     "join-monster": "^1.2.5-beta.1",
     "knex": "^0.13.0",
+    "nodemon": "^1.11.0",
     "pg": "^6.2.3"
   }
 }

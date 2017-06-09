@@ -18,7 +18,7 @@ services:
       - db
     volumes:
       - .:/usr/src/app
-    command: node src/server.js
+    command: npm start
 
 volumes:
   db:
